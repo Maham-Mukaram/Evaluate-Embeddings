@@ -20,7 +20,7 @@ os.environ["HF_MODULES_CACHE"]="/w/339/mahamm/Modules"
 os.environ["HF_METRICS_CACHE"]="/w/339/mahamm/Metrics"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-API_KEY = "tzyquyok6KIAh8gsEsfLzapvexvj3jYFDbsl4eHO"
+API_KEY =
 
 TASK_LIST_CLASSIFICATION = [
 ]

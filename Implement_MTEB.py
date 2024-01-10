@@ -23,7 +23,7 @@ os.environ["HF_MODULES_CACHE"]="/w/339/mahamm/Modules"
 os.environ["HF_METRICS_CACHE"]="/w/339/mahamm/Metrics"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-API_KEY = "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"
+API_KEY = 
 
 TASK_LIST_CLASSIFICATION = [
     # "AmazonCounterfactualClassification",

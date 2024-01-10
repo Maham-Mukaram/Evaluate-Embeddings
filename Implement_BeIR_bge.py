@@ -27,7 +27,7 @@ os.environ["HF_MODULES_CACHE"]="/w/340/mahamm/.cache/Modules"
 os.environ["HF_METRICS_CACHE"]="/w/340/mahamm/.cache/Metrics"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-API_KEY = "pa-5thxAN0jd6poMhnYTseswm-EaY3l0qoDwGSPsYzZkt0"
+API_KEY = 
 
 TASK_LIST = [
     "scifact","trec-covid","webis-touche2020"

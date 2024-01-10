@@ -29,7 +29,7 @@ os.environ["HF_MODULES_CACHE"]="/w/339/mahamm/Modules"
 os.environ["HF_METRICS_CACHE"]="/w/339/mahamm/Metrics"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-API_KEY = "r5pLYI1ZZ3HGNOswM7wl12p05qEEOXr77VmyKxL0"
+API_KEY = 
 
 TASK_LIST = [
     "arguana",
