@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 
 # List of tasks to run
 TASK_LIST = [
+    "arguana",
     "cqadupstack/android",
     "cqadupstack/english",
     "cqadupstack/gaming",
@@ -26,24 +27,31 @@ TASK_LIST = [
     "cqadupstack/physics",
     "cqadupstack/programmers",
     "cqadupstack/stats",
+    "cqadupstack/stats",
     "cqadupstack/tex",
     "cqadupstack/unix",
     "cqadupstack/webmasters",
     "cqadupstack/wordpress",
+    "fiqa",
+    "nfcorpus",
+    "nq",
+    "scidocs",
+    "scifact",
+    "webis-touche2020",
+    "trec-covid"
 ]
 
 # Function to parse command line arguments
 def parse_args():
     parser = argparse.ArgumentParser()
     
-    # Define if only want to run for specific queries in the file
+    # Define if only want to run for specific tasks
     parser.add_argument("--startid", type=int)
     parser.add_argument("--endid", type=int)
 
     # Define model engine, language, tasks if have specific task and batch size
     parser.add_argument("--engine", type=str, default="voyage-01")
     parser.add_argument("--lang", type=str, default="en")
-    parser.add_argument("--taskname", type=str, default=None)
     parser.add_argument("--batchsizeBeIR", type=int, default=2048)
     parser.add_argument("--batchsizeAPI", type=int, default=64) # voyage-01 had maximum number of texts as 64, voyage-02 has maximum number of texts as 128
     parser.add_argument("--queriesfile", type=str, default='queries.jsonl')

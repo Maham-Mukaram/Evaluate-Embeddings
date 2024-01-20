@@ -44,14 +44,13 @@ def parse_args():
     """
     parser = argparse.ArgumentParser()
 
-    # Define if only want to run for specific queries in the file
+    # Define if only want to run for specific tasks
     parser.add_argument("--startid", type=int)
     parser.add_argument("--endid", type=int)
 
     # Define model engine, language, tasks if have specific task and batch size
     parser.add_argument("--engine", type=str, default="embed-english-v3.0")
     parser.add_argument("--lang", type=str, default="en")
-    parser.add_argument("--taskname", type=str, default=None)
     parser.add_argument("--batchsize", type=int, default=2048)
     parser.add_argument("--API_key", type=str, default="YOUR API KEY")
 

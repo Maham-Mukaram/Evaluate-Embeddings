@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 
 # List of tasks to run
 TASK_LIST = [
+    "arguana",
     "cqadupstack/android",
     "cqadupstack/english",
     "cqadupstack/gaming",
@@ -29,23 +30,30 @@ TASK_LIST = [
     "cqadupstack/tex",
     "cqadupstack/unix",
     "cqadupstack/webmasters",
-    "cqadupstack/wordpress"
+    "cqadupstack/wordpress",
+    "fiqa",
+    "nfcorpus",
+    "nq",
+    "scidocs",
+    "scifact",
+    "webis-touche2020",
+    "trec-covid"
 ]
 
 # Function to parse command line arguments
 def parse_args():
     parser = argparse.ArgumentParser()
     
-    # define if only want to run for specific queries in the file
+    # define if only want to run for specific tasks
     parser.add_argument("--startid", type=int)
     parser.add_argument("--endid", type=int)
 
     # define model engine, language, tasks if have specific task and batch size
     parser.add_argument("--engine", type=str, default="embed-english-v3.0")
     parser.add_argument("--lang", type=str, default="en")
-    parser.add_argument("--taskname", type=str, default=None)
     parser.add_argument("--batchsize", type=int, default=2048)
     parser.add_argument("--queriesfile", type=str, default='queries.jsonl')
+    parser.add_argument("--API_key", type=str, default="YOUR API KEY")
 
     args = parser.parse_args()
     return args

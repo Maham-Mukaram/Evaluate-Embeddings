@@ -42,14 +42,13 @@ def parse_args():
     # Parse command line arguments
     parser = argparse.ArgumentParser()
 
-    # Define if only want to run for specific queries in the file
+    # Define if only want to run for specific tasks
     parser.add_argument("--startid", type=int)
     parser.add_argument("--endid", type=int)
 
     # Define model engine, language, tasks if have specific task and batch size
     parser.add_argument("--engine", type=str, default="voyage-01")
     parser.add_argument("--lang", type=str, default="en")
-    parser.add_argument("--taskname", type=str, default=None)
     parser.add_argument("--batchsizeBeIR", type=int, default=2048)  # voyage-01 had maximum number of texts as 64, voyage-02 has maximum number of texts as 128
     parser.add_argument("--batchsizeAPI", type=int, default=64)
     parser.add_argument("--API_key", type=str, default="YOUR API KEY")
