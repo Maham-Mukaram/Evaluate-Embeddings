@@ -106,10 +106,16 @@ We have also provided two sample files for evaluating embedding APIs on the [MTE
 
 ### 3. Results
 #### Open Source Embeddings
-![Open-Source-Embeddings-Evaluation_Bar](Pictures/Bar_Chart_SenTrans.PNG)
-![Open-Source-Embeddings-Evaluation_ndcg](Pictures/ndcg_SenTrans_noQE.PNG) ![Open-Source-Embeddings-Evaluation_mrr](Pictures/mrr_SenTrans_noQE.PNG)
+<img src="Pictures/Bar_Chart_SenTrans.PNG" alt="Open-Source-Embeddings-Evaluation_Bar" width="1000"/>
+<p float="left">
+<img src="Pictures/ndcg_SenTrans_noQE.PNG" alt="Open-Source-Embeddings-Evaluation_ndcg" width="600"/>
+<img src="Pictures/mrr_SenTrans_noQE.PNG" alt="Open-Source-Embeddings-Evaluation_mrr" width="600"/>
+</p>
 
 #### Embedding APIs
-![API-Embeddings-Evaluation_Bar](Pictures/Bar_Chart_API.PNG)
-![API-Embeddings-Evaluation_ndcg](Pictures/ndcg_API_noQE.PNG) ![API-Embeddings-Evaluation_mrr](Pictures/mrr_API_noQE.PNG)
+<img src="Pictures/Bar_Chart_API.PNG" alt="API-Embeddings-Evaluation_Bar" width="1000"/>
+<p float="left">
+<img src="Pictures/ndcg_API_noQE.PNG" alt="API-Embeddings-Evaluation_ndcg" width="500"/>
+<img src="Pictures/mrr_API_noQE.PNG" alt="API-Embeddings-Evaluation_mrr" width="500"/>
+</p>
 
