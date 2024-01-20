@@ -108,8 +108,8 @@ We have also provided two sample files for evaluating embedding APIs on the [MTE
 #### Open Source Embeddings
 <img src="Pictures/Bar_Chart_SenTrans.PNG" alt="Open-Source-Embeddings-Evaluation_Bar" width="1000"/>
 <p float="left">
-<img src="Pictures/ndcg_SenTrans_noQE.PNG" alt="Open-Source-Embeddings-Evaluation_ndcg" width="600"/>
-<img src="Pictures/mrr_SenTrans_noQE.PNG" alt="Open-Source-Embeddings-Evaluation_mrr" width="600"/>
+<img src="Pictures/ndcg_SenTrans_noQE.PNG" alt="Open-Source-Embeddings-Evaluation_ndcg" width="500"/>
+<img src="Pictures/mrr_SenTrans_noQE.PNG" alt="Open-Source-Embeddings-Evaluation_mrr" width="500"/>
 </p>
 
 #### Embedding APIs
