@@ -5,7 +5,7 @@ This repository contains the code and results for the embedding models and API e
 This study focused on the vital role text embeddings play in information retrieval. The [BeIR](https://github.com/beir-cellar/beir) benchmark, known for its rigorous evaluation, serves as a fertile ground for comparative analysis. This study examines the performance of three prominent open-source embedding models — gte-base, bge-base-en-v1.5, and e5-base-v2 — within the BeIR framework. Furthermore, the study briefly analyzes two semantic embedding APIs, Cohere and VoyageAI, exploring whether their practicality and scalability benefits are complemented by improved accuracy. Given the prohibitively high cost of these APIs, the study aims to provide insights for
 researchers in their cost-benefit analysis. The code and results of investigating the effects of query expansion on the performance of these embedding models can be found [here](https://github.com/Maham-Mukaram/query-expansion).
 
-![Intro-Figure](Intro-Figure.png)
+![Intro-Figure](Pictures/Intro-Figure.png)
 
 ## Quickstart
 
@@ -106,10 +106,10 @@ We have also provided two sample files for evaluating embedding APIs on the [MTE
 
 ### 3. Results
 #### Open Source Embeddings
-![Open-Source-Embeddings-Evaluation_Bar](Bar_Chart_SenTrans.png)
-![Open-Source-Embeddings-Evaluation_ndcg](ndcg_SenTrans_noQE.png) ![Open-Source-Embeddings-Evaluation_mrr](mrr_SenTrans_noQE.png)
+![Open-Source-Embeddings-Evaluation_Bar](Pictures/Bar_Chart_SenTrans.png)
+![Open-Source-Embeddings-Evaluation_ndcg](Pictures/ndcg_SenTrans_noQE.png) ![Open-Source-Embeddings-Evaluation_mrr](Pictures/mrr_SenTrans_noQE.png)
 
 #### Embedding APIs
-![API-Embeddings-Evaluation_Bar](Bar_Chart_API.png)
-![API-Embeddings-Evaluation_ndcg](ndcg_API_noQE.png) ![API-Embeddings-Evaluation_mrr](mrr_API_noQE.png)
+![API-Embeddings-Evaluation_Bar](Pictures/Bar_Chart_API.png)
+![API-Embeddings-Evaluation_ndcg](Pictures/ndcg_API_noQE.png) ![API-Embeddings-Evaluation_mrr](Pictures/mrr_API_noQE.png)
 
