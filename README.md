@@ -21,7 +21,7 @@ The embedding API codes use Cohere and VoyageAI's Python libraries. Please ensur
 
 ### 2. Evaluating on BeIR
 
-Two sample datasets Natural Questions [Datasets/nq](Datasets/nq) and CQADupStack [Datasets/cqadupstack](Datasets/cqadupstack). You can download these datasets using the [BeIR Download Datasets file](https://github.com/beir-cellar/beir/blob/main/examples/dataset/download_dataset.py). The tasks/datasets defined in the code are:
+You can download these datasets using the [BeIR Download Datasets file](https://github.com/beir-cellar/beir/blob/main/examples/dataset/download_dataset.py). The tasks/datasets defined in the code are:
 ```
 TASK_LIST = [
     "arguana",
